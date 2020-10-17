@@ -14,10 +14,13 @@
 // и возвращает число - разность element и index(вычитание).
 
 // Write code under this line
-const addIndex = (element, index) => element;
+const addIndex = (element, index) => {
+  return element + index; 
+}
 // Write code under this line 
-const subIndex = (element, index) => element;
-  
+const subIndex = (element, index) => {
+  return element - index; 
+}
 function mapArray(array, cb) {
   'use strict';
 // Write code under this line
